@@ -19,6 +19,7 @@ body{
     height: 100vh;
     box-sizing: border-box;
     background-image: url("assets/inovacao-e-tecnologia.jpg");
+    
     color: var(--cor--segundaria);
 }
 .titulo-destaque {
@@ -46,7 +47,7 @@ body{
 }
 
 .apresentacao {
-    margin: 5% 5%;
+    margin: 2% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -67,7 +68,7 @@ body{
 }
 .apresentacao__conteudo__texto{
     
-    font-size: 24px;
+    font-size: 1.0rem;
     font-family: 'Texturina', serif;
 }
 .apresentacao__links{
@@ -82,7 +83,7 @@ body{
 .apresentacao__links__subtitulo{
     font-family: 'PT Serif', serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.0rem;
 }
 .apresentacao__links__links{
     /* background-color: #22D4FD; */
@@ -100,6 +101,17 @@ body{
     
 }
 
+.apresentacao__imagem{
+    border-radius: 2%;
+    opacity: 0.8;
+    text-decoration:none;
+    padding: 15.5px 0px;
+    width: 200px;
+    border: 2px solid var(--cor--terciaria);
+ 
+  
+}
+
 .apresentacao__links__links:hover {
     background-color: var(--cor--hover);
 }
@@ -109,8 +121,12 @@ body{
 }
 
 .rodape{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0%;
     gap: 16px;
-    padding: 2px;
+    padding: 5px;
     color: hsl(0, 0%, 0%);
     background-color: var(--cor--terciaria);
     text-align: center;
